@@ -3,14 +3,14 @@
 
 // CONSTANTES
 #define DHT 4   // Se define el pin del sensor de temperatura y humedad
-#define MQ9 15  // Se define el pin del sensor de CO2
+#define MQ9 15  // Se define el pin del sensor de CO
 #define POS 5   // Se define el pin del sensor de posición
 
 // VARIABLES
 float temperatura = 0;  // Se inicializa la variable de la temperatura
 float humedad = 0;      // Se inicializa la variable de la humedad
 bool cerrado = false;   // Se inicializa la variable de la posición de la puerta
-int co = 0;            // Se inicializa la variable de la concentración de CO2
+int co = 0;            // Se inicializa la variable de la concentración de CO
 
 // Se inicializa el dht
 DHTesp dht;  // Se crea un objeto del tipo DHTesp para manejar el sensor DHT11
